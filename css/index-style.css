@@ -1,0 +1,504 @@
+body
+{
+    font-family: 'Nunito', sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+a:hover
+{text-decoration: none;}
+/*////////////////////////////////*/
+/*nav*/
+nav
+{
+    z-index: 9999999999999999;
+}
+nav .navbar-brand img
+{
+    height: 27px;
+    max-width: 100%;
+}
+nav ul li a
+{
+    padding: 8 !important;
+    margin: 0 7px;
+    color:#fff !important;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .05em;
+    transition: all 0.5s ease;
+}
+nav .navbar-nav .active a
+{
+    color: #f25454 !important;
+}
+nav .navbar-nav li:hover a
+{
+    color: #f25454 !important;
+}
+/*////////////////////////////*/
+/*header*/
+header 
+{
+    background-image: url("../kerri/header-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+header .overlay
+{
+    background-color: rgba(0, 0, 0, 0.69);
+    width: 100%;
+    height: 100%;
+}
+header h1
+{
+    font-size: 54px;
+    font-weight: bold;
+}
+header h1::after
+{
+    content: "";
+    font-size: 54px;
+    font-weight: bold;
+    animation: animation infinite 10s ;
+}
+header p
+{
+    color: rgba(255, 255, 255, 0.75) !important;
+    
+}
+header div a
+{
+    text-decoration: none;
+    border: 2px solid #f5f5f5;
+    border-radius: 30px;
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+}
+header div a:hover
+{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+@keyframes animation
+{
+    0%
+    {
+        content: "|";
+    }
+    1%
+    {
+        content: "Kerr|";
+    }
+    3%
+    {
+        content: "Kerri De|";
+    }
+    5%
+    {
+        content: "Kerri Deo. |";
+    }
+    22%
+    {
+        content: "Kerri Deo. |";
+    }
+    24%
+    {
+        content: "Kerri De|";
+    }
+    26%
+    {
+        content: "Kerr|";
+    }
+    28%
+    {
+        content: "|";
+    }
+    30%
+    {
+        content: "A Gr|";
+    }
+    32%
+    {
+        content: "A Graphi|";
+    }
+    34%
+    {
+        content: "A Graphic De|";
+    }
+    36%
+    {
+        content: "A Graphic Design|";
+    }
+    38%
+    {
+        content: "A Graphic Designer. |";
+    }
+    55%
+    {
+        content: "A Graphic Designer. |";
+    }
+    57%
+    {
+        content: "A Graphic Design|";
+    }
+    59%
+    {
+        content: "A Graphic De|";
+    }
+    61%
+    {
+        content: "A Graphi|";
+    }
+    63%
+    {
+        content: "A Gr|";
+    }
+    65%
+    {
+        content: "|";
+    }
+    67%
+    {
+        content: "A Ph|";
+    }
+    69%
+    {
+        content: "A Photog|";
+    }
+    71%
+    {
+        content: "A Photograp|";
+    }
+    73%
+    {
+        content: "A Photographer. |";
+    }
+    92%
+    {
+        content: "A Photographer. |";
+    }
+    94%
+    {
+        content: "A Photograp|";
+    }
+    96%
+    {
+        content: "A Photog|";
+    }
+    98%
+    {
+        content: "A Ph|";
+    }
+    100%
+    {
+        content: "|";
+    }
+}
+/*/////////////////////////////////*/
+/*about*/
+#about .about-img img
+{ 
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+}
+
+#about .about-info h2 span,#services .services-info h2 span,#client .client-info h2 span,
+#portfolio .portfolio-info h2 span,#blog .blog-info h2 span,#contact .contact-info h2 span
+{
+    font-weight: 700 !important;
+}
+#about .about-info h4
+{
+    font-weight: 600;
+}
+#about .about-info h4 span
+{
+    font-weight: bolder;
+    color: #e65f78;
+}
+#about .about-info .social a
+{
+    color: #000;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 2px solid #d4d4d4;
+    line-height: 38px;
+    transition: all 0.5s;
+    text-align: center;
+}
+#about .about-info .social a:hover
+{
+    border-color: #e65f78;
+    color: #e65f78;
+}
+/*//////////////////////////*/
+/*services*/
+#services .serv-box .box-icon i
+{
+    font-size: 50px;
+    color: #e65f78;
+}
+#services .serv-box .box-info h5
+{
+    font-weight: 600;
+}
+#services .serv-box .box-info hr
+{
+    background-color: #e65f78;
+    height: 2px;
+    width: 45px;
+    border: 0;
+    transition: all 0.5s;
+}
+#services .serv-box:hover .box-info hr
+{
+    width: 60px;
+}
+/*////////////////////////////////////*/
+/*free*/
+.freelanc h2
+{
+    font-weight: bolder;
+}
+.freelanc a
+{
+    background-color: #e65f78;
+    border: #e65f78 1px solid;
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.5s;
+    display: inline-block;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.freelanc a:hover
+{
+    text-decoration: none;
+    background-color: #d8576f;
+    border-color: #d8576f;color: #f3f3f3;
+}
+/*///////////////////////////////////*/
+/*client*/
+#client .carousel-inner .carousel-item .client-icon i
+{
+    color: #e65f78;
+    font-size: 45px;
+}
+#client .carousel-inner .carousel-item .client-p p
+{
+    font-size: 18px;
+    font-style: italic ;
+}
+#client .carousel-inner .carousel-item .client-p h6 span
+{
+    font-weight: 700;
+}
+#client .carousel .carousel-indicators li
+{
+    background-color: #e65f78;
+    height: 6px;
+    width: 12px;
+    border: 0;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+#client .carousel .carousel-indicators li:hover
+{
+    opacity: 1;
+}
+#client .carousel .carousel-indicators .active
+{
+    width: 20px;
+}
+/*/////////////////*/
+/*portfolio*/
+#portfolio .tab-content .work-box .work-info
+{
+    z-index: 5;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+#portfolio .tab-content .work-box .work-info .work-h
+{
+    position: absolute;
+    width: 100%;
+    top:105%;
+    transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+#portfolio .tab-content .work-box .work-info h6
+{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}
+#portfolio .tab-content .work-box .work-info h4
+{
+    font-size: 18px;
+    color: #ffffff;
+}
+#portfolio .tab-content .work-box .work-img img
+{
+    transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+#portfolio .tab-content .work-box:hover .work-img img
+{
+    transform: scale(1.05);
+}
+#portfolio .tab-content .work-box:hover .work-info
+{
+    opacity: 1;
+}
+#portfolio .tab-content .work-box:hover .work-info .work-h
+{
+    top: 50%;
+    transform: translate(0, -50%);
+}
+#portfolio .nav .nav-item a
+{
+    color: #212529;
+    border-radius: 30px;
+    letter-spacing: 0.03em;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 6px 16px;
+    transition: all 0.5s;
+    margin-top: 5px;
+    display: block;
+}
+
+#portfolio .nav .nav-item .active,#portfolio .nav .nav-item a:hover
+{
+    background-color: #e65f78;
+    color: #ffffff;
+}
+/*///////////////////////////////////*/
+/*blog*/
+#blog .card .card-info h3 a
+{
+    font-weight: 700;
+    color: #212529;
+    font-size: 1.25rem;
+}
+#blog .card .card-info h6 a
+{
+    font-weight: 700!important;
+    color: #e65f78;
+}
+#blog .card .card-info .read
+{
+    color: #6c757d;
+    font-weight: 700;
+
+}
+/*//////////////////////////////////////*/
+/*contact*/
+#contact .row .icon i
+{
+    color: #e65f78;
+    font-size: 2.5rem;
+}
+#contact .row .details h5
+{
+    font-size: 18px;
+    font-weight: 700;
+}
+#contact form input
+{
+    height: 50px;
+    border: 2px solid #e0e0e0;
+}
+#contact form textarea
+{
+    border: 2px solid #e0e0e0;
+}
+#contact form input:focus, #contact form textarea:focus
+{
+    box-shadow: none !important;
+    border-color: #e65f78;
+}
+#contact form .button
+{
+    height: auto;
+    background-color: #e65f78;
+    border-color: #e65f78;
+    border: 1px solid;
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#contact form .button:hover
+{
+    background-color: #d8576f;
+    border-color: #d8576f;
+    color: #f3f3f3;
+
+}
+/*//////////////////////////////*/
+/*footer**/
+footer
+{
+    background-color: #242424 !important;
+}
+footer ul li
+{
+    float: left;
+    list-style: none;
+    margin:0 0.5rem;
+}
+footer ul li a
+{
+
+    border-radius: 50%;
+    transition: all 0.5s;
+    background-color: rgba(241, 241, 241, 0.08);
+    width: 42px;
+    height: 42px;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+}
+footer ul li a i{
+    margin: 14px 0;
+}
+/*/////////////////////////////////////////*/
+/**/
+@media (max-width:768px)
+{
+    header h1,header h1::after
+    {
+        font-size: 27px;
+    }
+    header h4
+    {
+        font-size: 18px;
+    }
+}
